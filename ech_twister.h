@@ -1,5 +1,5 @@
 /*
-** EPITECH PROJECT, 2021
+** Author : Necrelox
 ** ech_twister
 ** File description:
 ** My Interpretation of pseudo code Mersen Twister MT19937
