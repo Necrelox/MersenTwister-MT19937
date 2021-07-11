@@ -7,12 +7,6 @@
 
 #include "ech_twister.h"
 
-#ifndef _unix_
-    #include <unistd.h>
-#elif defined _WIN32
-    #include <windows.h>
-#endif
-
 unsigned long ech_genRandom(ECHMT_S *ech)
 {
     static unsigned long mag[2] = {0x0, A};

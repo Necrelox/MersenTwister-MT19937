@@ -8,17 +8,17 @@
 #ifndef ECH_TWISTER_H_
 #define ECH_TWISTER_H_
 
-#define N                       624 /** degree of recurrence*/
-#define M                       397 /** middle word, an offset used in the recurrence*/
-#define A                       0x9908B0DF /** coefficients of the rational normal form twist matrix*/
-#define U                       11 /** additional Mersenne Twister tempering bit shifts/masks*/
-#define S                       7 /** TGFSR(R) tempering bit shifts*/
-#define B                       0x9D2C5680 /** TGFSR(R) tempering bitmasks*/
-#define T                       15 /** TGFSR(R) tempering bit shifts*/
-#define C                       0xEFC60000 /** TGFSR(R) tempering bitmasks*/
-#define L                       18 /** additional Mersenne Twister tempering bit shifts/masks*/
-#define LOW_MASK                0x7fffffff // (1 << r*) - 1
-#define UP_MASK                 0x80000000 // (1 << w*)
+#define N             624 /** degree of recurrence*/
+#define M             397 /** middle word, an offset used in the recurrence*/
+#define A             0x9908B0DF /** coefficients of the rational normal form twist matrix*/
+#define U             11 /** additional Mersenne Twister tempering bit shifts/masks*/
+#define S             7 /** TGFSR(R) tempering bit shifts*/
+#define B             0x9D2C5680 /** TGFSR(R) tempering bitmasks*/
+#define T             15 /** TGFSR(R) tempering bit shifts*/
+#define C             0xEFC60000 /** TGFSR(R) tempering bitmasks*/
+#define L             18 /** additional Mersenne Twister tempering bit shifts/masks*/
+#define LOW_MASK      0x7fffffff // (1 << r*) - 1
+#define UP_MASK       0x80000000 // (1 << w*)
 
 /**
 * \struct MT_T
